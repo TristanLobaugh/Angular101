@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Angular Exercise 3</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>	
+	<script type="text/javascript" src="scripts3.js"></script>
+
+</head>
+<body ng-controller="myController">
+
+<!-- 	<li ng-repeat="city in cities track by $index">
+		{{city.name}} - {{city.population}}
+	</li> -->
+
+	<table border=1>
+		<thead>
+			<th>City Name</th>
+			<th>City Population</th>
+		</thead>
+		<tr ng-repeat="city in cities">
+			<td>{{city.name}}</td>
+			<td>{{city.population}}</td>
+		</tr>
+	</table>
+
+
+ 
+</body>
+</html>
