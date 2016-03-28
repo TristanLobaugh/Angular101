@@ -2,13 +2,54 @@
 <html ng-app>
 <head>
 	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>	
 </head>
 <body>
 
-	<label>Name:</label><input type="text" ng-model="name">
-	Hello, {{name}}
+<!-- 	<label>Name:</label><input type="text" ng-model="name">
+	<label>Name 2:</label><input type="text" ng-model="name">
+	<label>Name 3:</label><input type="text" ng-model="name"> -->
+<div id="container">
 
+	<div id="form-wrapper" class="col-md-6">
+		<div class="col-md-12">
+			<label>Name:</label><input type="text" ng-model="first">
+		</div>
+		<div class="col-md-12">
+			<label>Address:</label><input type="text" ng-model="address">
+		</div>
+		<div class="col-md-12">
+			<label>City:</label><input type="text" ng-model="city">
+		</div>
+		<div class="col-md-12">
+			<label>State:</label><input type="text" ng-model="state">
+		</div>
+		<div class="col-md-12">
+			<label>Zip:</label><input type="text" ng-model="zip">
+		</div>
+	</div>
+
+
+	<div id="info-wrapper" class="col-md-6">
+		<div class="col-md-12">
+			Name: {{first}}
+		</div>
+		<div class="col-md-12">
+			Address: {{address}}
+		</div>
+		<div class="col-md-12">
+			City: {{city}}
+		</div>
+		<div class="col-md-12">
+			State: {{state}}
+		</div>
+		<div class="col-md-12">
+			Zip: {{zip}}
+		</div>
+
+	</div>
+</div>
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
 <!-- <script type="text/javascript" src="scripts.js"></script> -->
