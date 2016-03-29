@@ -1,0 +1,48 @@
+img{
+ width: 100%;
+ margin: 10px 0;
+}
+
+li{
+	padding: 2px 0;
+}
+
+li a:hover{
+	text-decoration: none;
+	background-color: black;
+	color: #66ffff;
+}
+
+.container{
+	background-color: gray;
+	padding-bottom: 30px;
+	transition: 3.0s ease;
+}
+
+div{
+	transition: 1.0s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
